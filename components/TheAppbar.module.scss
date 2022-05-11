@@ -1,14 +1,15 @@
+@import '../styles/variables';
+
 .appbar {
   position: fixed;
   bottom: 0;
-  background: #1c1c1c;
-  max-width: 640px;
+  background: $color-black;
   ul {
     display: flex;
-    gap: 12px;
+    gap: $space;
     li {
       a {
-        color: #fff;
+        color: $color-white;
       }
     }
   }

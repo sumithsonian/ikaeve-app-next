@@ -1,6 +1,8 @@
+import styles from './TheHeader.module.scss'
+
 const TheHeader = () => (
   <>
-    <header>header</header>
+    <header className={styles.header}><h1>Header</h1></header>
   </>
 )
 
