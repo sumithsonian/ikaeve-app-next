@@ -1,15 +1,21 @@
 @import '../styles/variables';
 
-.appbar {
-  position: fixed;
+.appBar {
+  position: sticky;
+  right: 0;
   bottom: 0;
+  left: 0;
   background: $color-black;
   ul {
     display: flex;
     gap: $space;
     li {
+      width: 20%;
       a {
         color: $color-white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
   }

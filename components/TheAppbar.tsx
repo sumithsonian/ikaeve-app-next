@@ -1,9 +1,9 @@
-import styles from './TheAppbar.module.scss'
+import styles from './TheAppBar.module.scss'
 import Link from 'next/link'
 
-const TheAppbar = () => (
+const TheAppBar = () => (
   <>
-    <nav className={styles.appbar}>
+    <nav className={styles.appBar}>
       <ul>
         <li>
           <Link href="/">ホーム</Link>
@@ -25,4 +25,4 @@ const TheAppbar = () => (
   </>
 )
 
-export default TheAppbar
+export default TheAppBar
