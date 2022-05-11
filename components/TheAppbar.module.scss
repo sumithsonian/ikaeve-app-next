@@ -1,0 +1,15 @@
+.appbar {
+  position: fixed;
+  bottom: 0;
+  background: #1c1c1c;
+  max-width: 640px;
+  ul {
+    display: flex;
+    gap: 12px;
+    li {
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

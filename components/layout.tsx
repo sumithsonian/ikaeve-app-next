@@ -1,6 +1,6 @@
 import { ReactElement } from 'react'
 import TheHeader from './TheHeader'
-import TheFooter from './TheFooter'
+import TheAppbar from './TheAppbar'
 import styles from './layout.module.scss'
 
 type LayoutProps = Required<{
@@ -12,7 +12,7 @@ const Layout = ({ children }: LayoutProps) => (
     <div className={styles.platform}>
       <TheHeader />
       <main>{children}</main>
-      <TheFooter />
+      <TheAppbar />
     </div>
   </>
 )
