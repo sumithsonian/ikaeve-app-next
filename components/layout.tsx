@@ -1,22 +1,20 @@
-import { ReactElement } from "react";
-import styles from "./layout.module.scss";
+import { ReactElement } from 'react'
+import TheHeader from './TheHeader'
+import TheFooter from './TheFooter'
+import styles from './layout.module.scss'
 
 type LayoutProps = Required<{
-  readonly children: ReactElement;
-}>;
+  readonly children: ReactElement
+}>
 
 const Layout = ({ children }: LayoutProps) => (
   <>
     <div className={styles.platform}>
-      <header>
-        <p>header</p>
-      </header>
+      <TheHeader />
       <main>{children}</main>
-      <footer>
-        <p>Footer</p>
-      </footer>
+      <TheFooter />
     </div>
   </>
-);
+)
 
-export default Layout;
+export default Layout
